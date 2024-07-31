@@ -1,10 +1,4 @@
-# Lab 5
-
-## Help Received
-
-Please document any help you received in completing this lab. Note that the what you submit should be your own work. Refer to the syllabus for more details. 
-
-I got help from office hours (Austins office hours).
+Enigma
 
 ## Describe your work
 
