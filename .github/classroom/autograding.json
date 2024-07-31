@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test.sh",
+      "setup": "",
+      "run": "./test.sh",
+      "input": "",
+      "output": "\r\n pass \t\t Compiles without warrnong or error\r\n\r\n- encryption\r\n\r\n pass \t\t Simple encryption (echo AAA | java Comms 1 2 3 \"###\" encrypt)\r\n pass \t\t Medium encryption (echo -n DO#YOUR#BEST#AND#KEEP#ON#KEEPIN#ON | java Comms 3 1 2 \"SAT\" encrypt)\r\n pass \t\t Medium encryption 2 (echo -n THE#NATIONAL#ANIMAL#OF#SCOTLAND#IS#THE#UNICORN | java Comms 5 2 4 \"EST\" encrypt)\r\n pass \t\t Large encryption (echo \"HAIL#TO#THE#BUFF#HAIL#TO#THE#BLUE#HAIL#TO#THE#BUFF#AND#BLUE#ALL#OUR#LIVES#WELL#BE#PROUD#TO#SAY#WE#HAIL#FROM#GW#GO#BIG#BLUE#OH#BY#GEORGE#WERE#HAPPY#WE#CAN#SAY#WERE#GW#HERE#TO#SHOW#THE#WAY#SO#RAISE#HIGH#THE#BUFF#RAISE#HIGH#THE#BLUE#LOYAL#TO#GW#YOU#BET#WERE#LOYAL#TO#GW#FIGHT\" | java Comms 5 1 3 \"BUF\" encrypt)\r\n\r\n- decryption\r\n\r\n pass \t\t Simple decryption (echo NDU | java Comms 1 2 3 \"###\" decrypt)\r\n pass \t\t Medium decryption 1 (echo -n ACAAFAEOZFWKBQKPXZOGIKXTNPEBDXWQCZ | java Comms 3 1 2 \"SAT\" decrypt)\r\n pass \t\t Medium decryption 2 (echo -n CSHIAWDFGDCOE#EZKJHRWAZDDCBCILON#PKUJEXEXSHINZ | java Comms 5 2 4 \"EST\" decrypt)\r\n pass \t\t Large Decryption (echo \"MUWWXBWRWVMAXBOD#OWYYZDYTYXQEAYVPDS#BBCHBXBASGCHUJFMFKRNKHBQXJZ#JABJNSAUWYXDGWXTCTUFHZCHMGBEYOLKRFUBDDENRTXD#U#UZUQCTD#XUOCMGXTURLXFIVGXWCZHWKSBRNKJQESAUORKAYXD#IZTNTHZVDSXRMPQAFLQPGVURHEHDAYXZYAPDYOYOTSJYUZLAXUTVUXLBWMWMRQHWSPMGVZUHWIJOIDYSYFZQJFPTTSZVDSWRETFGLFAVPVDDUFL\" | java Comms 5 1 3 \"BUF\" decrypt)\r\n",
+      "comparison": "exact",
+      "timeout": 3,
+      "points": null
+    }
+  ]
+}
